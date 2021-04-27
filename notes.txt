@@ -4,12 +4,7 @@ The server must be smart enough to redirect the user to the login page as user h
 
 Usually when a user enters the domain name only of a website, the web server will respond to the client the default page
 
-Linked list:
-head- address of the first node is stored here
-nextfree- stores the addr of the next available node for insertion
-
-
-Array vs Lnked list:
+#Array vs Lnked list:
 -Array allows for easy direct access (a[2] = 'gay')
 linked list needs to traverse from the head
 
@@ -22,7 +17,12 @@ array cannot add more items if full
 -array transfers data which is more time consuming
 linked list transfers pointers, data remains in the same place
 
-Linear queue
+#Array
+-Direct access (stack mem)
+-Quick in read/write (stack mem)
+-Data is contingous
+
+#Linear queue
 in dome uses, where the linear queue has gone through a sequeue of En and De , even though queue is not full , enqueue
 
 psuedocode for circular queue:
@@ -38,6 +38,9 @@ begin delete_item procedure
 	endif
 end procedure
 
-linked list:
+#lnked list:
 OS WILL NOT keep track of the items in the list
 the program will not keep track of the what items are in the list
+
+head- address of the first node is stored here
+nextfree- stores the addr of the next available node for insertion
