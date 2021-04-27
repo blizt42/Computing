@@ -1,0 +1,43 @@
+if a user has not logged into sls for that day
+and keys in https://vle.learning.moe.edu.sg
+The server must be smart enough to redirect the user to the login page as user has not logged in yet
+
+Usually when a user enters the domain name only of a website, the web server will respond to the client the default page
+
+Linked list:
+head- address of the first node is stored here
+nextfree- stores the addr of the next available node for insertion
+
+
+Array vs Lnked list:
+-Array allows for easy direct access (a[2] = 'gay')
+linked list needs to traverse from the head
+
+-Array allows direct memory access
+-LL does not allow access
+
+-linked list is dynamic in nature as if list is full, can still add more
+array cannot add more items if full
+
+-array transfers data which is more time consuming
+linked list transfers pointers, data remains in the same place
+
+Linear queue
+in dome uses, where the linear queue has gone through a sequeue of En and De , even though queue is not full , enqueue
+
+psuedocode for circular queue:
+
+begin delete_item procedure
+	if size = 0 then write ('Queue Underflow')
+	else
+		deleted_item = item(front)
+		size = size -1
+		if front = limit then front = 1
+		else front = front +1
+		endif
+	endif
+end procedure
+
+linked list:
+OS WILL NOT keep track of the items in the list
+the program will not keep track of the what items are in the list
