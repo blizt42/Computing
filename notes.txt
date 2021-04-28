@@ -44,3 +44,12 @@ the program will not keep track of the what items are in the list
 
 head- address of the first node is stored here
 nextfree- stores the addr of the next available node for insertion
+
+#hash table
+~use of array
+~Hash function
+~key-value pair
+~collision due to repeated hashed value
+	dealt with:
+	-linear probing
+	-chaining
