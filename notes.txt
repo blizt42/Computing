@@ -53,3 +53,16 @@ nextfree- stores the addr of the next available node for insertion
 	dealt with:
 	-linear probing
 	-chaining
+~programmer is still required to have a good estimate on the total no. of key-value pair to store so that he/she  can determine the appropriate size for the array
+no. of key-value pair = size of array
+~search
+	1 input search key
+	2 hash search key to obtain hash value
+	3 inspect item hash_table[hash_value]
+	
+~scenario
+	1 found directly at hash table
+	2 found by performing linear probing starting from hash_table[hash_value]
+	3 Not found: hash_table[hash.value] is empty
+	4 Not found: Perform linear probing starting from hash_table[hash_value] until the entire array is probed.
+	
