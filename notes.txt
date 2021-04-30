@@ -65,4 +65,14 @@ no. of key-value pair = size of array
 	2 found by performing linear probing starting from hash_table[hash_value]
 	3 Not found: hash_table[hash.value] is empty
 	4 Not found: Perform linear probing starting from hash_table[hash_value] until the entire array is probed.
+~load factor is a ratio of
+	# of key value/ capacity of array
+	load factor increase, occurence of collision increase
+	> As no. of key-value pair increases, the no. of available space in hash table decrease
+	> Hence more collisions will lead increase in collision handling
+~mod N [array size]
+	N is usually a prime number
+	In order to make it less divisible
+~deleting data from hash table that handles collisions using linear probing can be more complex, and how to overcome this difficulty?
+	
 	
