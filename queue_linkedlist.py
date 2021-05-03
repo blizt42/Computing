@@ -1,3 +1,4 @@
+#code not by me
 class Node():
     def __init__(self,data): #constructor
         self.__data = data
