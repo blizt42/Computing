@@ -74,5 +74,18 @@ no. of key-value pair = size of array
 	N is usually a prime number
 	In order to make it less divisible
 ~deleting data from hash table that handles collisions using linear probing can be more complex, and how to overcome this difficulty?
-	
+~load factor is low > can use open addressing(linear probing), else use chaining
+~open addressing
+	>linear probing
+	>Plus 3 rehash
+~objectives of hash table
+	>minimize collisons
+	>uniform distribution of hash values
+	>easy to calculate
+	>resolve any collision
+~summary
+	>Used to index large amt of data
+	>Address of each key calculated using the key itself
+	> collions resolved with open or closed addressing
+	> hashing is widely used in database indexing, compilars, caching, password authentication, and more
 	
