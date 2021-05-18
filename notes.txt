@@ -87,5 +87,10 @@ no. of key-value pair = size of array
 	>Used to index large amt of data
 	>Address of each key calculated using the key itself
 	> collions resolved with open or closed addressing
-	> hashing is widely used in database indexing, compilars, caching, password authentication, and more
+	> hashing is widely used in database indexing, compilars, caching, password authentication, and more'
+	
+#Socket programing
+~during data transfer p[hase between server and client A, the server is still passively listening to connection requeests from other clients.
+~The socket my_socket has to be maintained for its main task and a separate socket new_socket is created for data transfer.
+~sometimes when the interval between sending first and second packet of data is too short, packet 2
 	
