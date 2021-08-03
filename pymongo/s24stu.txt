@@ -1,0 +1,13 @@
+ID,Name,Class,Age,Hobbies
+1,Y. Kavitha,20S24,18,Reading,Studying
+2,Loh Jia Ying,20S24,19,Studying,Sleeping,Gaming
+3,Joey Tee,20S24,19,Gaming
+4,Hady A Santo,20S24,17,Drawing,Gaming
+5,Lai Junjie,20S24,18,Gaming
+6,Callista,20S24,18,Table Tennis
+7,Lua Chu Yue,20S24,18,Studying,Poeming
+8,Xu Zhe Kai,20S24,19,Mangaing,Gaming,Red Bull
+9,Kor Qian Fu,20S11,16,Genshin,Saying No to Others all the time
+10,Irfan,20S11,18,Nun
+11,Kor Qian Fu,20S11,17,Hamburger,KFC
+12,Li Zhennian,20S24,17,Reading,Gaming
