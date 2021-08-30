@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Table of Results</title>
+</head>
+<body align="center">
+<h1>Table of Results</h1>
+
+<table border = 1 align="center">
+    <tr><th>Subject Name</th><th>Score</th></tr>
+        {% for subject in results %}
+            <tr>
+                <td>{{ subject }}</td>
+                <td>{{ results[subject] }}</td>
+            </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
